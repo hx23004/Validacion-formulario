@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Ejemplos Integrados - Validaciones y Estilos</title>
+  </head>
+  <body>
+    <form id="miFormulario" class="formulario">
+      <fieldset>
+        <legend>Formulario con Validación de Campos</legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" class="m" />
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" />
+        <label for="pais">Selecciona país:</label>
+        <select id="pais">
+          <option value="">Seleccione</option>
+          <option value="mx">México</option>
+          <option value="ar">Argentina</option>
+          <option value="co">Colombia</option>
+        </select>
+        <label for="check1"
+          >Acepto términos
+          <input type="checkbox" id="check1" />
+        </label>
+        <label for="check2"
+          >Suscribirme
+          <input type="checkbox" id="check2" />
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Verificación de Fechas</legend>
+        <label for="fechaInicio">Fecha de inicio:</label>
+        <input type="date" id="fechaInicio" />
+        <label for="fechaCierre">Fecha de cierre:</label>
+        <input type="date" id="fechaCierre" />
+        <button type="button" id="btnverificador" class="mt">Verificar</button>
+      </fieldset>
+      <fieldset>
+        <legend>Modificar Estilos con JavaScript</legend>
+        <div id="caja">Caja de Estilo</div>
+        <br />
+        <button type="button" id="btnEstilo">Cambiar Estilo</button>
+        <button type="submit" class="mt">Enviar formulario</button>
+      </fieldset>
+    </form>
+    <script src="js/script.js"></script>
+  </body>
+</html>
